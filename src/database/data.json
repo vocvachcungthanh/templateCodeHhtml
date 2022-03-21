@@ -2,149 +2,80 @@
     "menus": [
         {
             "_id": 1,
-            "name": "Trang chủ",
+            "name": "PRODUCTS",
             "link": "index.html",
-            "status": "home",
-            "omegamenu": false,
-            "childrens": null
+            "status": "HOME",
+            "omeGaMenu": false,
+            "children": null
         },
         {
             "_id": 2,
-            "name": "Giới thiệu",
-            "link": "Introduce.page.html",
-            "status": "introduce",
-            "omegamenu": false,
-            "childrens": null
+            "name": "ROOMS",
+            "link": "rooms.page.html",
+            "status": "COLLECTIONS",
+            "omeGaMenu": false,
+            "children": null
         },
         {
             "_id": 3,
-            "name": "Sản phẩm",
-            "link": "Product.page.html",
-            "omegamenu": false,
-            "status": "products",
-            "childrens": null,
-            "omega": [
-                {
-                    "name": "BOS-HRM",
-                    "link": "ProductModule.page.html",
-                    "desc": "Phân hệ cung cấp bộ công cụ cho nhân viên có thể làm việc và giao tiếp nội bộ."
-                },
-                {
-                    "name": "BOS - Tài chính",
-                    "link": "ProductModule.page.html",
+            "name": "COLLECTIONS",
+            "link": "collections.page.html",
+            "omeGamMenu": false,
+            "status": "COLLECTIONS",
+            "children": false
+        }
+    ],
 
-                    "desc": "Phân hệ cung cấp bộ công cụ cho nhân viên có thể làm việc và giao tiếp nội bộ."
-                },
-                {
-                    "name": "BOS - Work",
-                    "link": "ProductModule.page.html",
-
-                    "desc": "Bộ giải pháp quản trị công việc, quy trình và dự án toàn diện."
-                },
-                {
-                    "name": "BOS - Kinh doanh",
-                    "link": "ProductModule.page.html",
-
-                    "desc": "Bộ giải pháp quản trị công việc, quy trình và dự án toàn diện."
-                },
-                {
-                    "name": "BOS-HRM",
-                    "link": "ProductModule.page.html",
-
-                    "desc": "Phân hệ cung cấp bộ công cụ cho nhân viên có thể làm việc và giao tiếp nội bộ."
-                },
-                {
-                    "name": "BOS - CRM",
-                    "link": "ProductModule.page.html",
-
-                    "desc": "Phân hệ cung cấp bộ công cụ cho nhân viên có thể làm việc và giao tiếp nội bộ."
-                },
-                {
-                    "name": "BOS-HRM",
-                    "desc": "Phân hệ cung cấp bộ công cụ cho nhân viên có thể làm việc và giao tiếp nội bộ."
-                },
-                {
-                    "name": "BOS-HRM",
-                    "link": "ProductModule.page.html",
-                    "desc": "Phân hệ cung cấp bộ công cụ cho nhân viên có thể làm việc và giao tiếp nội bộ."
-                }
-            ]
+    "productPortfolio": [
+        {
+            "id": 1,
+            "name": "Sofas",
+            "img":"product__portfolio--1.png"
         },
         {
-            "_id": 4,
-            "name": "Bảng giá",
-            "link": "PriceList.page.html",
-            "status": "PriceList",
-            "omegamenu": true,
-            "childrens": null
-        },
-
-        {
-            "_id": 5,
-            "name": "Tin tức",
-            "link": "News.page.html",
-            "status": "news",
-            "omegamenu": false,
-            "childrens": [
-                {
-                    "name": "Quản trị doanh nghiệp",
-                    "link": "detail__planting-implant-teeth.html"
-                },
-                {
-                    "name": "Quản trị Nhân sự",
-                    "link": "detail__planting-implant-teeth.html"
-                },
-                {
-                    "name": "Marketing - Bán hàng",
-                    "link": "detail__planting-implant-teeth.html"
-                },
-                {
-                    "name": "Quản trị dự án & công việc",
-                    "link": "detail__planting-implant-teeth.html"
-                },
-                {
-                    "name": "Kiến thức hữu ích",
-                    "link": "detail__planting-implant-teeth.html"
-                },
-                {
-                    "name": "Tính năng mới",
-                    "link": "detail__planting-implant-teeth.html"
-                }
-            ]
+            "id": 2,
+            "name": "Amchairs",
+            "img":"product__portfolio--2.png"
         },
         {
-            "_id": 6,
-            "name": "Đào tạo",
-            "link": "Training.page.html",
-            "status": "training",
-            "omegamenu": false,
-            "childrens": null
+            "id": 3,
+            "name": "Chairs",
+            "img":"product__portfolio--3.png"
         },
         {
-            "_id": 7,
-            "name": "Tuyển dụng",
-            "link": "Recruit.page.html",
-            "status": "recruit",
-            "omegamenu": false,
-            "childrens": null
+            "id": 4,
+            "name": "Tables",
+            "img":"product__portfolio--4.png"
         },
-
         {
-            "_id": 8,
-            "name": "Hỗ trợ",
-            "link": "Support.page.html",
-            "status": "support",
-            "childrens": null,
-            "omegamenu": false
+            "id": 5,
+            "name": "Lamps",
+            "img":"product__portfolio--5.png"
         },
-
         {
-            "_id": 9,
-            "name": "Liên hệ",
-            "link": "Contact.page.html",
-            "omegamenu": false,
-            "status": "contact",
-            "childrens": null
+            "id": 6,
+            "name": "Rugs",
+            "img":"product__portfolio--6.png"
+        },
+        {
+            "id": 7,
+            "name": "Decor",
+            "img":"product__portfolio--7.png"
+        },
+        {
+            "id": 8,
+            "name": "Sofas",
+            "img":"product__portfolio--8.png"
+        },
+        {
+            "id": 9,
+            "name": "Beds",
+            "img":"product__portfolio--9.png"
+        },
+        {
+            "id": 10,
+            "name": "Sofas",
+            "img":"product__portfolio--10.png"
         }
     ]
 }
